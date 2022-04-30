@@ -12,7 +12,6 @@ public class Descsort20220428 {
             String arr [] = s.split("");
             Arrays.sort(arr);
             Collections.reverse(Arrays.asList(arr));
-            System.out.println(Arrays.toString(arr));
 
             answer = Long.parseLong(Arrays.stream(arr).collect(Collectors.joining()));
 
