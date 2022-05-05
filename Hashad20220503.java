@@ -7,7 +7,8 @@ public class Hashad20220503 {
             for(int i = 0; i < number.length(); i++){
                 String a1 = number.substring(i, i+1);
                 int a = Integer.parseInt(a1 + a1);
-                System.out.println(a+"=========");
+                System.out.println(a+"aa=========");
+
             }
 
             return answer;
